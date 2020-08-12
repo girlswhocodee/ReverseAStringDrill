@@ -37,6 +37,7 @@ public class RemoveCharFromStringTest {
         assertEquals(expected, actual);
     }
 
+    /*
     @Test
     public void removeAtBeginningRecursiveTest(){
         RemoveCharFromString removeCharFromString = new RemoveCharFromString();
@@ -70,5 +71,6 @@ public class RemoveCharFromStringTest {
         // all but one removable characters
         assertEquals("b", removeCharFromString.remove("aaaaaaaaaaaaaab", 'a'));
     }
+    */
 
 }
